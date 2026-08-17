@@ -1,0 +1,30 @@
+# ── Data (660 MB, comes from Canvas) ──────────────────────────
+data/*
+!data/.gitkeep
+
+# ── Trained models (binaries — git can't diff them) ───────────
+models/*
+!models/.gitkeep
+!models/labels.json
+
+# ── Generated submission file ─────────────────────────────────
+COSC2753_A2_Group8.csv
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── OS / editor ───────────────────────────────────────────────
+.DS_Store
+.vscode/
+.idea/
+
+# ── Logs ──────────────────────────────────────────────────────
+logs/
+*.log
